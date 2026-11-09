@@ -17,7 +17,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python scanner.py
+      - name: Offline unit tests
+        run: python -m unittest -v test_scanner.py
+      - name: Scan market data
+        run: python scanner.py
       - name: Save results
         run: |
           git config user.name "github-actions[bot]"
