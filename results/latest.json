@@ -1,0 +1,103 @@
+{
+  "generated_at_utc": "2026-11-09T19:27:25.705363+00:00",
+  "paper_only": true,
+  "orders": false,
+  "signals": [
+    {
+      "ticker": "AAPL",
+      "signal": "NO_SIGNAL",
+      "last": 351.315,
+      "prior_20_bar_high": 351.87,
+      "volume_ratio": 0.0,
+      "timestamp_utc": "2026-11-09T19:27:21+00:00"
+    },
+    {
+      "ticker": "MSFT",
+      "signal": "NO_SIGNAL",
+      "last": 545.35,
+      "prior_20_bar_high": 545.235,
+      "volume_ratio": 0.0,
+      "timestamp_utc": "2026-11-09T19:27:19+00:00"
+    },
+    {
+      "ticker": "NVDA",
+      "signal": "NO_SIGNAL",
+      "last": 176.125,
+      "prior_20_bar_high": 177.25,
+      "volume_ratio": 0.0,
+      "timestamp_utc": "2026-11-09T19:27:22+00:00"
+    },
+    {
+      "ticker": "AMZN",
+      "signal": "NO_SIGNAL",
+      "last": 267.972,
+      "prior_20_bar_high": 268.405,
+      "volume_ratio": 0.0,
+      "timestamp_utc": "2026-11-09T19:27:22+00:00"
+    },
+    {
+      "ticker": "META",
+      "signal": "NO_SIGNAL",
+      "last": 641.95,
+      "prior_20_bar_high": 643.1,
+      "volume_ratio": 0.0,
+      "timestamp_utc": "2026-11-09T19:27:16+00:00"
+    },
+    {
+      "ticker": "GOOGL",
+      "signal": "NO_SIGNAL",
+      "last": 290.0,
+      "prior_20_bar_high": 290.95,
+      "volume_ratio": 0.0,
+      "timestamp_utc": "2026-11-09T19:27:22+00:00"
+    },
+    {
+      "ticker": "TSLA",
+      "signal": "NO_SIGNAL",
+      "last": 377.44,
+      "prior_20_bar_high": 377.809,
+      "volume_ratio": 0.0,
+      "timestamp_utc": "2026-11-09T19:27:22+00:00"
+    },
+    {
+      "ticker": "AMD",
+      "signal": "NO_SIGNAL",
+      "last": 505.86,
+      "prior_20_bar_high": 509.43,
+      "volume_ratio": 0.0,
+      "timestamp_utc": "2026-11-09T19:27:22+00:00"
+    },
+    {
+      "ticker": "AVGO",
+      "signal": "NO_SIGNAL",
+      "last": 318.4,
+      "prior_20_bar_high": 320.11,
+      "volume_ratio": 0.0,
+      "timestamp_utc": "2026-11-09T19:27:22+00:00"
+    },
+    {
+      "ticker": "PLTR",
+      "signal": "NO_SIGNAL",
+      "last": 168.285,
+      "prior_20_bar_high": 169.305,
+      "volume_ratio": 0.0,
+      "timestamp_utc": "2026-11-09T19:27:23+00:00"
+    },
+    {
+      "ticker": "SPY",
+      "signal": "NO_SIGNAL",
+      "last": 752.17,
+      "prior_20_bar_high": 753.21,
+      "volume_ratio": 0.0,
+      "timestamp_utc": "2026-11-09T19:27:24+00:00"
+    },
+    {
+      "ticker": "QQQ",
+      "signal": "NO_SIGNAL",
+      "last": 677.11,
+      "prior_20_bar_high": 678.32,
+      "volume_ratio": 0.0,
+      "timestamp_utc": "2026-11-09T19:27:22+00:00"
+    }
+  ]
+}
