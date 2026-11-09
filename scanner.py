@@ -13,9 +13,9 @@ def scan(symbol):
     if len(b)<30:return None
     closes=[x[1] for x in b]; volumes=[x[2] for x in b]
     last=closes[-1]; prior=max(closes[-21:-1]); avg=sum(volumes[-21:-1])/20
-    ratio=volumes[-1]/avg if avg else 0
-    signal="BREAKOUT_WATCH" if last>prior and ratio>=1.2 else "NO_SIGNAL"
-    return {"ticker":symbol,"signal":signal,"last":round(last,3),"prior_20_bar_high":round(prior,3),"volume_ratio":round(ratio,2),"timestamp_utc":dt.datetime.fromtimestamp(b[-1][0],dt.timezone.utc).isoformat()}
+    ratio=volumes[-1]/avg if avg else None
+    signal="BREAKOUT_WATCH" if ratio is not None and last>prior and ratio>=1.2 else "NO_SIGNAL"
+    return {"ticker":symbol,"signal":signal,"last":round(last,3),"prior_20_bar_high":round(prior,3),"volume_ratio":round(ratio,2) if ratio is not None else None,"volume_data_valid":avg>0 and volumes[-1]>0,"timestamp_utc":dt.datetime.fromtimestamp(b[-1][0],dt.timezone.utc).isoformat()}
 def main():
     output=[]
     for s in SYMBOLS:
