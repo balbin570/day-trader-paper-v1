@@ -1,115 +1,140 @@
 {
-  "generated_at_utc": "2026-11-10T02:20:41.421672+00:00",
+  "generated_at_utc": "2026-11-10T18:26:21.571049+00:00",
   "paper_only": true,
   "orders": false,
   "signals": [
     {
       "ticker": "AAPL",
       "signal": "NO_SIGNAL",
-      "last": 350.69,
-      "prior_20_bar_high": 351.9,
-      "volume_ratio": 0.0,
-      "volume_data_valid": false,
-      "timestamp_utc": "2026-11-09T21:00:00+00:00"
+      "last": 347.975,
+      "prior_20_bar_high": 348.36,
+      "volume_ratio": 0.15,
+      "volume_data_valid": true,
+      "session_date": "2026-11-10",
+      "timestamp_utc": "2026-11-10T18:20:00+00:00",
+      "age_minutes": 1.4
     },
     {
       "ticker": "MSFT",
       "signal": "NO_SIGNAL",
-      "last": 545.18,
-      "prior_20_bar_high": 547.87,
-      "volume_ratio": 0.0,
-      "volume_data_valid": false,
-      "timestamp_utc": "2026-11-09T21:00:00+00:00"
+      "last": 529.98,
+      "prior_20_bar_high": 543.61,
+      "volume_ratio": 0.25,
+      "volume_data_valid": true,
+      "session_date": "2026-11-10",
+      "timestamp_utc": "2026-11-10T18:20:00+00:00",
+      "age_minutes": 1.4
     },
     {
       "ticker": "NVDA",
       "signal": "NO_SIGNAL",
-      "last": 178.67,
-      "prior_20_bar_high": 178.63,
-      "volume_ratio": 0.0,
-      "volume_data_valid": false,
-      "timestamp_utc": "2026-11-09T21:00:00+00:00"
+      "last": 167.338,
+      "prior_20_bar_high": 168.01,
+      "volume_ratio": 0.05,
+      "volume_data_valid": true,
+      "session_date": "2026-11-10",
+      "timestamp_utc": "2026-11-10T18:20:00+00:00",
+      "age_minutes": 1.4
     },
     {
       "ticker": "AMZN",
       "signal": "NO_SIGNAL",
-      "last": 266.93,
-      "prior_20_bar_high": 268.89,
-      "volume_ratio": 0.0,
-      "volume_data_valid": false,
-      "timestamp_utc": "2026-11-09T21:00:00+00:00"
+      "last": 268.5,
+      "prior_20_bar_high": 269.26,
+      "volume_ratio": 0.95,
+      "volume_data_valid": true,
+      "session_date": "2026-11-10",
+      "timestamp_utc": "2026-11-10T18:20:00+00:00",
+      "age_minutes": 1.4
     },
     {
       "ticker": "META",
       "signal": "NO_SIGNAL",
-      "last": 641.37,
-      "prior_20_bar_high": 646.7,
-      "volume_ratio": 0.0,
-      "volume_data_valid": false,
-      "timestamp_utc": "2026-11-09T21:00:00+00:00"
+      "last": 637.49,
+      "prior_20_bar_high": 642.63,
+      "volume_ratio": 0.51,
+      "volume_data_valid": true,
+      "session_date": "2026-11-10",
+      "timestamp_utc": "2026-11-10T18:20:00+00:00",
+      "age_minutes": 1.4
     },
     {
       "ticker": "GOOGL",
       "signal": "NO_SIGNAL",
-      "last": 288.15,
-      "prior_20_bar_high": 290.015,
-      "volume_ratio": 0.0,
-      "volume_data_valid": false,
-      "timestamp_utc": "2026-11-09T21:00:00+00:00"
+      "last": 286.17,
+      "prior_20_bar_high": 287.67,
+      "volume_ratio": 0.13,
+      "volume_data_valid": true,
+      "session_date": "2026-11-10",
+      "timestamp_utc": "2026-11-10T18:20:00+00:00",
+      "age_minutes": 1.4
     },
     {
       "ticker": "TSLA",
-      "signal": "NO_SIGNAL",
-      "last": 378.05,
-      "prior_20_bar_high": 381.195,
-      "volume_ratio": 0.0,
-      "volume_data_valid": false,
-      "timestamp_utc": "2026-11-09T21:00:00+00:00"
+      "signal": "BREAKOUT_WATCH",
+      "last": 376.61,
+      "prior_20_bar_high": 376.59,
+      "volume_ratio": 3.03,
+      "volume_data_valid": true,
+      "session_date": "2026-11-10",
+      "timestamp_utc": "2026-11-10T18:20:00+00:00",
+      "age_minutes": 1.4
     },
     {
       "ticker": "AMD",
       "signal": "NO_SIGNAL",
-      "last": 508.58,
-      "prior_20_bar_high": 514.33,
-      "volume_ratio": 0.0,
-      "volume_data_valid": false,
-      "timestamp_utc": "2026-11-09T21:00:00+00:00"
+      "last": 507.145,
+      "prior_20_bar_high": 517.63,
+      "volume_ratio": 0.38,
+      "volume_data_valid": true,
+      "session_date": "2026-11-10",
+      "timestamp_utc": "2026-11-10T18:20:00+00:00",
+      "age_minutes": 1.4
     },
     {
       "ticker": "AVGO",
       "signal": "NO_SIGNAL",
-      "last": 319.48,
-      "prior_20_bar_high": 322.655,
-      "volume_ratio": 0.0,
-      "volume_data_valid": false,
-      "timestamp_utc": "2026-11-09T21:00:00+00:00"
+      "last": 325.96,
+      "prior_20_bar_high": 327.47,
+      "volume_ratio": 0.11,
+      "volume_data_valid": true,
+      "session_date": "2026-11-10",
+      "timestamp_utc": "2026-11-10T18:20:00+00:00",
+      "age_minutes": 1.4
     },
     {
       "ticker": "PLTR",
       "signal": "NO_SIGNAL",
-      "last": 169.2,
-      "prior_20_bar_high": 170.645,
-      "volume_ratio": 0.0,
-      "volume_data_valid": false,
-      "timestamp_utc": "2026-11-09T21:00:00+00:00"
+      "last": 164.95,
+      "prior_20_bar_high": 166.265,
+      "volume_ratio": 0.37,
+      "volume_data_valid": true,
+      "session_date": "2026-11-10",
+      "timestamp_utc": "2026-11-10T18:20:00+00:00",
+      "age_minutes": 1.4
     },
     {
       "ticker": "SPY",
       "signal": "NO_SIGNAL",
-      "last": 752.69,
-      "prior_20_bar_high": 755.185,
-      "volume_ratio": 0.0,
-      "volume_data_valid": false,
-      "timestamp_utc": "2026-11-09T21:00:00+00:00"
+      "last": 745.91,
+      "prior_20_bar_high": 747.605,
+      "volume_ratio": 0.6,
+      "volume_data_valid": true,
+      "session_date": "2026-11-10",
+      "timestamp_utc": "2026-11-10T18:20:00+00:00",
+      "age_minutes": 1.4
     },
     {
       "ticker": "QQQ",
       "signal": "NO_SIGNAL",
-      "last": 679.35,
-      "prior_20_bar_high": 681.43,
-      "volume_ratio": 0.0,
-      "volume_data_valid": false,
-      "timestamp_utc": "2026-11-09T21:00:00+00:00"
+      "last": 668.84,
+      "prior_20_bar_high": 672.25,
+      "volume_ratio": 0.19,
+      "volume_data_valid": true,
+      "session_date": "2026-11-10",
+      "timestamp_utc": "2026-11-10T18:20:00+00:00",
+      "age_minutes": 1.4
     }
-  ]
+  ],
+  "feed_healthy": true
 }
