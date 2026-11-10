@@ -60,7 +60,8 @@ def main():
             output.append(scan(symbol, now))
         except Exception as exc:
             output.append({"ticker":symbol,"signal":"DATA_ERROR","reason":str(exc)[:160]})
-    payload={"generated_at_utc":now.isoformat(),"paper_only":True,"orders":False,"signals":output}
+    payload={"generated_at_utc":now.isoformat(),"paper_only":True,"orders":False,"signals":output,
+             "feed_healthy":any(row["signal"] in ("NO_SIGNAL","BREAKOUT_WATCH") for row in output)}
     folder=Path("results")
     folder.mkdir(exist_ok=True)
     (folder/"latest.json").write_text(json.dumps(payload,indent=2)+"\n")
@@ -68,7 +69,9 @@ def main():
     archive.mkdir(parents=True,exist_ok=True)
     (archive/(now.strftime("%H%M%S")+".json")).write_text(json.dumps(payload,indent=2)+"\n")
     for row in output: print(row)
-    if not any(row["signal"] in ("NO_SIGNAL","BREAKOUT_WATCH") for row in output):
-        raise SystemExit("No fresh, usable scan data; check feed/session")
+    active = now.astimezone(NY)
+    market_hours = active.weekday() < 5 and dt.time(9, 35) <= active.time() < dt.time(16, 0)
+    if market_hours and not any(row["signal"] in ("NO_SIGNAL","BREAKOUT_WATCH") for row in output):
+        raise SystemExit("Market open but no fresh, usable scan data; check feed/session")
 if __name__=="__main__":
     main()
