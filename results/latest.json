@@ -1,140 +1,140 @@
 {
-  "generated_at_utc": "2026-11-10T18:26:21.571049+00:00",
+  "generated_at_utc": "2026-11-10T23:39:27.650372+00:00",
   "paper_only": true,
   "orders": false,
   "signals": [
     {
       "ticker": "AAPL",
-      "signal": "NO_SIGNAL",
-      "last": 347.975,
-      "prior_20_bar_high": 348.36,
-      "volume_ratio": 0.15,
+      "signal": "STALE_DATA",
+      "last": 348.63,
+      "prior_20_bar_high": 349.645,
+      "volume_ratio": 6.11,
       "volume_data_valid": true,
       "session_date": "2026-11-10",
-      "timestamp_utc": "2026-11-10T18:20:00+00:00",
-      "age_minutes": 1.4
+      "timestamp_utc": "2026-11-10T20:55:00+00:00",
+      "age_minutes": 159.5
     },
     {
       "ticker": "MSFT",
-      "signal": "NO_SIGNAL",
-      "last": 529.98,
-      "prior_20_bar_high": 543.61,
-      "volume_ratio": 0.25,
+      "signal": "STALE_DATA",
+      "last": 533.42,
+      "prior_20_bar_high": 535.85,
+      "volume_ratio": 7.06,
       "volume_data_valid": true,
       "session_date": "2026-11-10",
-      "timestamp_utc": "2026-11-10T18:20:00+00:00",
-      "age_minutes": 1.4
+      "timestamp_utc": "2026-11-10T20:55:00+00:00",
+      "age_minutes": 159.5
     },
     {
       "ticker": "NVDA",
-      "signal": "NO_SIGNAL",
-      "last": 167.338,
-      "prior_20_bar_high": 168.01,
-      "volume_ratio": 0.05,
+      "signal": "STALE_DATA",
+      "last": 168.79,
+      "prior_20_bar_high": 168.75,
+      "volume_ratio": 3.76,
       "volume_data_valid": true,
       "session_date": "2026-11-10",
-      "timestamp_utc": "2026-11-10T18:20:00+00:00",
-      "age_minutes": 1.4
+      "timestamp_utc": "2026-11-10T20:55:00+00:00",
+      "age_minutes": 159.5
     },
     {
       "ticker": "AMZN",
-      "signal": "NO_SIGNAL",
-      "last": 268.5,
-      "prior_20_bar_high": 269.26,
-      "volume_ratio": 0.95,
+      "signal": "STALE_DATA",
+      "last": 270.9,
+      "prior_20_bar_high": 271.91,
+      "volume_ratio": 0.86,
       "volume_data_valid": true,
       "session_date": "2026-11-10",
-      "timestamp_utc": "2026-11-10T18:20:00+00:00",
-      "age_minutes": 1.4
+      "timestamp_utc": "2026-11-10T20:55:00+00:00",
+      "age_minutes": 159.5
     },
     {
       "ticker": "META",
-      "signal": "NO_SIGNAL",
-      "last": 637.49,
-      "prior_20_bar_high": 642.63,
-      "volume_ratio": 0.51,
+      "signal": "STALE_DATA",
+      "last": 641.66,
+      "prior_20_bar_high": 645.649,
+      "volume_ratio": 7.46,
       "volume_data_valid": true,
       "session_date": "2026-11-10",
-      "timestamp_utc": "2026-11-10T18:20:00+00:00",
-      "age_minutes": 1.4
+      "timestamp_utc": "2026-11-10T20:55:00+00:00",
+      "age_minutes": 159.5
     },
     {
       "ticker": "GOOGL",
-      "signal": "NO_SIGNAL",
-      "last": 286.17,
-      "prior_20_bar_high": 287.67,
-      "volume_ratio": 0.13,
+      "signal": "STALE_DATA",
+      "last": 287.38,
+      "prior_20_bar_high": 287.72,
+      "volume_ratio": 5.57,
       "volume_data_valid": true,
       "session_date": "2026-11-10",
-      "timestamp_utc": "2026-11-10T18:20:00+00:00",
-      "age_minutes": 1.4
+      "timestamp_utc": "2026-11-10T20:55:00+00:00",
+      "age_minutes": 159.5
     },
     {
       "ticker": "TSLA",
-      "signal": "BREAKOUT_WATCH",
-      "last": 376.61,
-      "prior_20_bar_high": 376.59,
-      "volume_ratio": 3.03,
+      "signal": "STALE_DATA",
+      "last": 379.8,
+      "prior_20_bar_high": 379.14,
+      "volume_ratio": 5.66,
       "volume_data_valid": true,
       "session_date": "2026-11-10",
-      "timestamp_utc": "2026-11-10T18:20:00+00:00",
-      "age_minutes": 1.4
+      "timestamp_utc": "2026-11-10T20:55:00+00:00",
+      "age_minutes": 159.5
     },
     {
       "ticker": "AMD",
-      "signal": "NO_SIGNAL",
-      "last": 507.145,
-      "prior_20_bar_high": 517.63,
-      "volume_ratio": 0.38,
+      "signal": "STALE_DATA",
+      "last": 515.49,
+      "prior_20_bar_high": 517.22,
+      "volume_ratio": 3.13,
       "volume_data_valid": true,
       "session_date": "2026-11-10",
-      "timestamp_utc": "2026-11-10T18:20:00+00:00",
-      "age_minutes": 1.4
+      "timestamp_utc": "2026-11-10T20:55:00+00:00",
+      "age_minutes": 159.5
     },
     {
       "ticker": "AVGO",
-      "signal": "NO_SIGNAL",
-      "last": 325.96,
-      "prior_20_bar_high": 327.47,
-      "volume_ratio": 0.11,
+      "signal": "STALE_DATA",
+      "last": 331.98,
+      "prior_20_bar_high": 332.655,
+      "volume_ratio": 7.82,
       "volume_data_valid": true,
       "session_date": "2026-11-10",
-      "timestamp_utc": "2026-11-10T18:20:00+00:00",
-      "age_minutes": 1.4
+      "timestamp_utc": "2026-11-10T20:55:00+00:00",
+      "age_minutes": 159.5
     },
     {
       "ticker": "PLTR",
-      "signal": "NO_SIGNAL",
-      "last": 164.95,
-      "prior_20_bar_high": 166.265,
-      "volume_ratio": 0.37,
+      "signal": "STALE_DATA",
+      "last": 168.84,
+      "prior_20_bar_high": 168.9,
+      "volume_ratio": 7.85,
       "volume_data_valid": true,
       "session_date": "2026-11-10",
-      "timestamp_utc": "2026-11-10T18:20:00+00:00",
-      "age_minutes": 1.4
+      "timestamp_utc": "2026-11-10T20:55:00+00:00",
+      "age_minutes": 159.5
     },
     {
       "ticker": "SPY",
-      "signal": "NO_SIGNAL",
-      "last": 745.91,
-      "prior_20_bar_high": 747.605,
-      "volume_ratio": 0.6,
+      "signal": "STALE_DATA",
+      "last": 749.94,
+      "prior_20_bar_high": 750.46,
+      "volume_ratio": 6.29,
       "volume_data_valid": true,
       "session_date": "2026-11-10",
-      "timestamp_utc": "2026-11-10T18:20:00+00:00",
-      "age_minutes": 1.4
+      "timestamp_utc": "2026-11-10T20:55:00+00:00",
+      "age_minutes": 159.5
     },
     {
       "ticker": "QQQ",
-      "signal": "NO_SIGNAL",
-      "last": 668.84,
-      "prior_20_bar_high": 672.25,
-      "volume_ratio": 0.19,
+      "signal": "STALE_DATA",
+      "last": 674.81,
+      "prior_20_bar_high": 675.3,
+      "volume_ratio": 0.64,
       "volume_data_valid": true,
       "session_date": "2026-11-10",
-      "timestamp_utc": "2026-11-10T18:20:00+00:00",
-      "age_minutes": 1.4
+      "timestamp_utc": "2026-11-10T20:55:00+00:00",
+      "age_minutes": 159.5
     }
   ],
-  "feed_healthy": true
+  "feed_healthy": false
 }

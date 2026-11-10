@@ -78,7 +78,13 @@
       "volume_data_valid": true,
       "session_date": "2026-11-10",
       "timestamp_utc": "2026-11-10T18:20:00+00:00",
-      "age_minutes": 1.4
+      "age_minutes": 1.4,
+      "return_30m_pct": 0.198,
+      "price_30m": 377.355,
+      "bar_30m_utc": "2026-11-10T18:50:00+00:00",
+      "return_60m_pct": 0.256,
+      "price_60m": 377.575,
+      "bar_60m_utc": "2026-11-10T19:20:00+00:00"
     },
     {
       "ticker": "AMD",
