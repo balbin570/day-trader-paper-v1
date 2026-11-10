@@ -21,6 +21,8 @@ jobs:
         run: python -m unittest -v test_scanner.py
       - name: Scan market data
         run: python scanner.py
+      - name: Evaluate prior paper signals
+        run: python evaluate_signals.py
       - name: Save results
         run: |
           git config user.name "github-actions[bot]"
