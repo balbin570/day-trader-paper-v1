@@ -2,7 +2,7 @@ name: US Stocks Paper Scan
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 13-22 * * 1-5'
+    - cron: '7,37 13-22 * * 1-5'
 permissions:
   contents: write
 concurrency:
