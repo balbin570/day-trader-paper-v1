@@ -1,31 +1,68 @@
 name: US Stocks Paper Scan
 on:
   workflow_dispatch:
+  push:
+    paths: ['**.py', 'requirements.txt', '.github/workflows/**']
+  pull_request:
+    paths: ['**.py', 'requirements.txt', '.github/workflows/**']
   schedule:
-    - cron: '7,37 13-22 * * 1-5'
+    # UTC union of summer/winter sessions; calendar in code is authoritative.
+    - cron: '7,22,37,52 13-21 * * 1-5'
 permissions:
-  contents: write
+  contents: read
 concurrency:
-  group: paper-scan
+  group: paper-${{ github.ref }}
   cancel-in-progress: false
 jobs:
-  scan:
+  test:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Offline unit tests
-        run: python -m unittest -v test_scanner.py
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -v
+  scan:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    needs: test
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
       - name: Scan market data
         run: python scanner.py
       - name: Evaluate prior paper signals
+        if: ${{ !cancelled() }}
         run: python evaluate_signals.py
+      - name: Preserve diagnostic results
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper-results-${{ github.run_id }}-${{ github.run_attempt }}
+          path: results/v2/
+          if-no-files-found: warn
       - name: Save results
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add results/latest.json results/history/
-          git diff --cached --quiet || (git commit -m "Update paper scan results" && git push)
+          if [ -d results/v2 ]; then
+            git add results/v2/
+            if ! git diff --cached --quiet; then
+              git commit -m "Update v2 paper observations"
+              git pull --rebase origin "${GITHUB_REF_NAME}"
+              git push origin "HEAD:${GITHUB_REF_NAME}"
+            fi
+          fi

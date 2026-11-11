@@ -31,7 +31,7 @@ class ScannerTests(unittest.TestCase):
         with patch.object(scanner,"bars",return_value=[]):
             self.assertEqual(scanner.scan("TEST",NOW)["signal"],"DATA_UNAVAILABLE")
     def test_stale(self):
-        late=NOW+dt.timedelta(hours=5)
+        late=NOW+dt.timedelta(minutes=20)
         with patch.object(scanner,"bars",return_value=sample()):
             self.assertEqual(scanner.scan("TEST",late)["signal"],"STALE_DATA")
 if __name__=="__main__":
