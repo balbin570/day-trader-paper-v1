@@ -1,178 +1,58 @@
 {
   "schema_version": 2,
   "evaluation_version": 2,
-  "generated_at_utc": "2026-11-11T17:19:21.438556+00:00",
+  "generated_at_utc": "2026-11-11T23:31:10.891016+00:00",
   "paper_only": true,
   "orders": false,
   "signals": [
     {
       "ticker": "AAPL",
-      "signal": "NO_SIGNAL",
-      "last": 354.8299865722656,
-      "strategy_id": "breakout_v2",
-      "observed_at_utc": "2026-11-11T17:19:21.723095+00:00",
-      "available_at_utc": "2026-11-11T17:15:00+00:00",
-      "prior_20_bar_high": 354.93,
-      "volume_ratio": 0.16,
-      "volume_data_valid": true,
-      "session_date": "2026-11-11",
-      "timestamp_utc": "2026-11-11T17:10:00+00:00",
-      "age_minutes": 4.4
+      "signal": "MARKET_CLOSED"
     },
     {
       "ticker": "MSFT",
-      "signal": "NO_SIGNAL",
-      "last": 521.3350219726562,
-      "strategy_id": "breakout_v2",
-      "observed_at_utc": "2026-11-11T17:19:21.801613+00:00",
-      "available_at_utc": "2026-11-11T17:15:00+00:00",
-      "prior_20_bar_high": 523.09,
-      "volume_ratio": 0.2,
-      "volume_data_valid": true,
-      "session_date": "2026-11-11",
-      "timestamp_utc": "2026-11-11T17:10:00+00:00",
-      "age_minutes": 4.4
+      "signal": "MARKET_CLOSED"
     },
     {
       "ticker": "NVDA",
-      "signal": "NO_SIGNAL",
-      "last": 176.58140563964844,
-      "strategy_id": "breakout_v2",
-      "observed_at_utc": "2026-11-11T17:19:21.902935+00:00",
-      "available_at_utc": "2026-11-11T17:15:00+00:00",
-      "prior_20_bar_high": 176.36,
-      "volume_ratio": 0.1,
-      "volume_data_valid": true,
-      "session_date": "2026-11-11",
-      "timestamp_utc": "2026-11-11T17:10:00+00:00",
-      "age_minutes": 4.4
+      "signal": "MARKET_CLOSED"
     },
     {
       "ticker": "AMZN",
-      "signal": "NO_SIGNAL",
-      "last": 266.8399963378906,
-      "strategy_id": "breakout_v2",
-      "observed_at_utc": "2026-11-11T17:19:21.991304+00:00",
-      "available_at_utc": "2026-11-11T17:15:00+00:00",
-      "prior_20_bar_high": 267.34,
-      "volume_ratio": 0.6,
-      "volume_data_valid": true,
-      "session_date": "2026-11-11",
-      "timestamp_utc": "2026-11-11T17:10:00+00:00",
-      "age_minutes": 4.4
+      "signal": "MARKET_CLOSED"
     },
     {
       "ticker": "META",
-      "signal": "NO_SIGNAL",
-      "last": 641.72998046875,
-      "strategy_id": "breakout_v2",
-      "observed_at_utc": "2026-11-11T17:19:22.070565+00:00",
-      "available_at_utc": "2026-11-11T17:15:00+00:00",
-      "prior_20_bar_high": 641.96,
-      "volume_ratio": 0.56,
-      "volume_data_valid": true,
-      "session_date": "2026-11-11",
-      "timestamp_utc": "2026-11-11T17:10:00+00:00",
-      "age_minutes": 4.4
+      "signal": "MARKET_CLOSED"
     },
     {
       "ticker": "GOOGL",
-      "signal": "NO_SIGNAL",
-      "last": 293.1499938964844,
-      "strategy_id": "breakout_v2",
-      "observed_at_utc": "2026-11-11T17:19:22.164585+00:00",
-      "available_at_utc": "2026-11-11T17:15:00+00:00",
-      "prior_20_bar_high": 293.57,
-      "volume_ratio": 0.77,
-      "volume_data_valid": true,
-      "session_date": "2026-11-11",
-      "timestamp_utc": "2026-11-11T17:10:00+00:00",
-      "age_minutes": 4.4
+      "signal": "MARKET_CLOSED"
     },
     {
       "ticker": "TSLA",
-      "signal": "NO_SIGNAL",
-      "last": 392.5799865722656,
-      "strategy_id": "breakout_v2",
-      "observed_at_utc": "2026-11-11T17:19:22.250685+00:00",
-      "available_at_utc": "2026-11-11T17:15:00+00:00",
-      "prior_20_bar_high": 395.125,
-      "volume_ratio": 0.1,
-      "volume_data_valid": true,
-      "session_date": "2026-11-11",
-      "timestamp_utc": "2026-11-11T17:10:00+00:00",
-      "age_minutes": 4.4
+      "signal": "MARKET_CLOSED"
     },
     {
       "ticker": "AMD",
-      "signal": "NO_SIGNAL",
-      "last": 554.5371704101562,
-      "strategy_id": "breakout_v2",
-      "observed_at_utc": "2026-11-11T17:19:22.332874+00:00",
-      "available_at_utc": "2026-11-11T17:15:00+00:00",
-      "prior_20_bar_high": 556.358,
-      "volume_ratio": 0.47,
-      "volume_data_valid": true,
-      "session_date": "2026-11-11",
-      "timestamp_utc": "2026-11-11T17:10:00+00:00",
-      "age_minutes": 4.4
+      "signal": "MARKET_CLOSED"
     },
     {
       "ticker": "AVGO",
-      "signal": "NO_SIGNAL",
-      "last": 354.80999755859375,
-      "strategy_id": "breakout_v2",
-      "observed_at_utc": "2026-11-11T17:19:22.457157+00:00",
-      "available_at_utc": "2026-11-11T17:15:00+00:00",
-      "prior_20_bar_high": 355.105,
-      "volume_ratio": 0.18,
-      "volume_data_valid": true,
-      "session_date": "2026-11-11",
-      "timestamp_utc": "2026-11-11T17:10:00+00:00",
-      "age_minutes": 4.4
+      "signal": "MARKET_CLOSED"
     },
     {
       "ticker": "PLTR",
-      "signal": "NO_SIGNAL",
-      "last": 172.9949951171875,
-      "strategy_id": "breakout_v2",
-      "observed_at_utc": "2026-11-11T17:19:22.552129+00:00",
-      "available_at_utc": "2026-11-11T17:15:00+00:00",
-      "prior_20_bar_high": 173.44,
-      "volume_ratio": 0.14,
-      "volume_data_valid": true,
-      "session_date": "2026-11-11",
-      "timestamp_utc": "2026-11-11T17:10:00+00:00",
-      "age_minutes": 4.4
+      "signal": "MARKET_CLOSED"
     },
     {
       "ticker": "SPY",
-      "signal": "NO_SIGNAL",
-      "last": 760.3699951171875,
-      "strategy_id": "breakout_v2",
-      "observed_at_utc": "2026-11-11T17:19:22.974346+00:00",
-      "available_at_utc": "2026-11-11T17:15:00+00:00",
-      "prior_20_bar_high": 760.5,
-      "volume_ratio": 0.07,
-      "volume_data_valid": true,
-      "session_date": "2026-11-11",
-      "timestamp_utc": "2026-11-11T17:10:00+00:00",
-      "age_minutes": 4.4
+      "signal": "MARKET_CLOSED"
     },
     {
       "ticker": "QQQ",
-      "signal": "NO_SIGNAL",
-      "last": 693.3200073242188,
-      "strategy_id": "breakout_v2",
-      "observed_at_utc": "2026-11-11T17:19:23.042552+00:00",
-      "available_at_utc": "2026-11-11T17:15:00+00:00",
-      "prior_20_bar_high": 693.51,
-      "volume_ratio": 0.03,
-      "volume_data_valid": true,
-      "session_date": "2026-11-11",
-      "timestamp_utc": "2026-11-11T17:10:00+00:00",
-      "age_minutes": 4.4
+      "signal": "MARKET_CLOSED"
     }
   ],
-  "feed_healthy": true
+  "feed_healthy": false
 }

@@ -1,0 +1,58 @@
+{
+  "schema_version": 2,
+  "evaluation_version": 2,
+  "generated_at_utc": "2026-11-11T23:31:10.891016+00:00",
+  "paper_only": true,
+  "orders": false,
+  "signals": [
+    {
+      "ticker": "AAPL",
+      "signal": "MARKET_CLOSED"
+    },
+    {
+      "ticker": "MSFT",
+      "signal": "MARKET_CLOSED"
+    },
+    {
+      "ticker": "NVDA",
+      "signal": "MARKET_CLOSED"
+    },
+    {
+      "ticker": "AMZN",
+      "signal": "MARKET_CLOSED"
+    },
+    {
+      "ticker": "META",
+      "signal": "MARKET_CLOSED"
+    },
+    {
+      "ticker": "GOOGL",
+      "signal": "MARKET_CLOSED"
+    },
+    {
+      "ticker": "TSLA",
+      "signal": "MARKET_CLOSED"
+    },
+    {
+      "ticker": "AMD",
+      "signal": "MARKET_CLOSED"
+    },
+    {
+      "ticker": "AVGO",
+      "signal": "MARKET_CLOSED"
+    },
+    {
+      "ticker": "PLTR",
+      "signal": "MARKET_CLOSED"
+    },
+    {
+      "ticker": "SPY",
+      "signal": "MARKET_CLOSED"
+    },
+    {
+      "ticker": "QQQ",
+      "signal": "MARKET_CLOSED"
+    }
+  ],
+  "feed_healthy": false
+}
