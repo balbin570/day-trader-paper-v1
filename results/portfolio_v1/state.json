@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paper_only": true,
+  "orders": false,
+  "started_at": "2026-11-12T17:01:12.739374+00:00",
+  "cash": 10000.0,
+  "positions": {},
+  "pending": {},
+  "trades": [],
+  "seen": [],
+  "day": "2026-11-12",
+  "day_equity": 10000.0,
+  "equity": 10000.0,
+  "events": [],
+  "blocked": false,
+  "updated_at": "2026-11-12T17:01:12.739374+00:00",
+  "realized_pnl": 0
+}
