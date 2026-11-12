@@ -46,12 +46,17 @@ jobs:
       - name: Evaluate prior paper signals
         if: ${{ !cancelled() }}
         run: python evaluate_signals.py
+      - name: Advance paper portfolio
+        if: ${{ !cancelled() }}
+        run: python paper_portfolio.py
       - name: Preserve diagnostic results
         if: ${{ !cancelled() }}
         uses: actions/upload-artifact@v4
         with:
           name: paper-results-${{ github.run_id }}-${{ github.run_attempt }}
-          path: results/v2/
+          path: |
+            results/v2/
+            results/portfolio_v1/
           if-no-files-found: warn
       - name: Save results
         if: ${{ !cancelled() }}
@@ -59,7 +64,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if [ -d results/v2 ]; then
-            git add results/v2/
+            git add results/v2/ results/portfolio_v1/
             if ! git diff --cached --quiet; then
               git commit -m "Update v2 paper observations"
               git pull --rebase origin "${GITHUB_REF_NAME}"
